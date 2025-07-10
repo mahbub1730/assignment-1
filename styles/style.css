@@ -72,3 +72,30 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 300px;
+
+}
+
+.action-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.preview-btn {
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.action-image img {
+    width: 200px;
+    border-radius: 12px;    
+}
