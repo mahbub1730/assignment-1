@@ -21,6 +21,7 @@ body {
 .logo {
   font-size: 30px;
   font-weight: 700;
+  margin-left: 150px;
 }
 
 .signup-btn {
@@ -31,6 +32,7 @@ body {
   border-radius: 6px;
   font-weight: 600;
   transition: background 0.3s;
+  margin-right: 150px;
 }
 
 /* Banner Section */
@@ -184,7 +186,6 @@ body {
 .user-says h2 {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 40px;
 }
 
 .user-wrapper {
@@ -278,6 +279,7 @@ body {
   max-width: 500px;
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
 }
 
 .contact-form input,
