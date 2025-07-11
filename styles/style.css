@@ -173,6 +173,75 @@ body {
 }
 
 
+/* card */
 
+.user-says {
+  text-align: center;
+  padding: 40px 20px;
+}
 
+.user-says h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.user-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.user-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 300px;
+  box-shadow: 5px darkgrey;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.stars img {
+  width: 18px;
+  height: 18px;
+  margin-right: 2px;
+}
+
+.user-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.user-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+.footer strong {
+  font-weight: 600;
+  color: #111;
+}
+
+.footer small {
+  color: #777;
+  font-size: 12px;
+}
 
