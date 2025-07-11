@@ -178,6 +178,7 @@ body {
 .user-says {
   text-align: center;
   padding: 40px 20px;
+  margin-bottom: 50px;
 }
 
 .user-says h2 {
@@ -245,3 +246,115 @@ body {
   font-size: 12px;
 }
 
+
+/* Form section */
+.contact-section {
+  background-color: #f5f7fe;
+  padding: 60px 20px;
+}
+
+.contact-wrapper {
+  max-width: 1100px;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Heading */
+.contact-heading h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #111827;
+  margin-left: 200px;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: white;
+  color: #111827;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4f46e5;
+}
+
+/* Button */
+.contact-form button {
+  background-color: #4f46e5;
+  color: white;
+  font-size: 14px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4338ca;
+}
+
+/* last section */
+.footer {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.footer-logo {
+  font-size: 50px;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color:darkslategray;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: blue;
+}
